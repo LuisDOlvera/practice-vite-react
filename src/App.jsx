@@ -36,24 +36,34 @@ export default function App() {
           <span className="article-cont">
             <article className="box">
               <ViteCard
-                title="Lorem ipsum dolor."
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                emoji="💡"
+                title="Instant Server Start."
+                description="On demand file serving over native ESM, no bundling required!."
               />
               <ViteCard
-                title="Lorem ipsum dolor."
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                emoji="⚡"
+                title="Lightning Fast HMR."
+                description="Hot Module Replacement (HMR) that stays fast regardless of app size."
               />
               <ViteCard
-                title="Lorem ipsum dolor."
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                emoji="🛠️"
+                title="Rich Features."
+                description="Out-of-the-box support for TypeScript, JSX, CSS and more."
               />
               <ViteCard
-                title="Lorem ipsum dolor."
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                emoji="📦"
+                title="Optimized Build."
+                description="Pre-configured Rollup build with multi-page and library mode support."
               />
               <ViteCard
-                title="Lorem ipsum dolor."
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                emoji="🔩"
+                title="Universal Plugins."
+                description="Rollup-superset plugin interface shared between dev and build."
+              />
+              <ViteCard
+                emoji="🔑"
+                title="Fully Typed APIs."
+                description="Flexible programmatic APIs with full TypeScript typing."
               />
             </article>
           </span>
